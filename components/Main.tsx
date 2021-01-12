@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react'
 
 type Props = {
-  text?: string;
+  text?: string
 }
 
-export default function Main({ text = "default" }: Props) {
+export default function Main({ text = 'default' }: Props) {
   const [count, setCount] = useState(0)
 
   useEffect(() => {
@@ -12,7 +12,7 @@ export default function Main({ text = "default" }: Props) {
   }, [])
 
   const handleClick = (): void => {
-    setCount(count => count + 1)
+    setCount((count) => count + 1)
   }
 
   return (
