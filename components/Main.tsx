@@ -9,7 +9,7 @@ export default function Main({ text = 'default' }: Props) {
 
   useEffect(() => {
     console.log(count)
-  }, [])
+  }, [count])
 
   const handleClick = (): void => {
     setCount((count) => count + 1)

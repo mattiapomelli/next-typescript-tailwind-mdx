@@ -2,15 +2,7 @@ import Head from 'next/head'
 import Main from '../components/Main'
 import styles from '../styles/Home.module.css'
 
-export default function Home(): JSX.Element {
-  const sayHello = () => {
-    console.log('Hello!')
-  }
-
-  const saySomething = () => {
-    console.log('Wow')
-  }
-
+export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
