@@ -19,6 +19,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['react', '@typescript-eslint', 'react-hooks'],
+  ignorePatterns: ['next.config.js'],
   rules: {
     '@typescript-eslint/explicit-module-boundary-types': 0,
     'react/react-in-jsx-scope': 'off',
