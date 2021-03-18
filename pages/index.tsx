@@ -1,3 +1,10 @@
+import DarkModeToggle from '../components/dark-mode-toggle'
+
 export default function Home() {
-  return <div>Welcome to my app</div>
+  return (
+    <div>
+      <h1>Welcome to my app</h1>
+      <DarkModeToggle />
+    </div>
+  )
 }
