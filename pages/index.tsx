@@ -1,4 +1,4 @@
-import DarkModeToggle from '../components/dark-mode-toggle'
+import DarkModeToggle from '@/components/dark-mode-toggle'
 
 export default function Home() {
   return (
