@@ -1,7 +1,7 @@
 import { FunctionComponent } from 'react'
 import Link from 'next/link'
 
-import DarkModeToggle from './dark-mode-toggle'
+import DarkModeToggle from '@components/dark-mode-toggle'
 
 const Navbar: FunctionComponent = () => {
   return (
