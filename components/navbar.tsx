@@ -1,9 +1,8 @@
-import { FunctionComponent } from 'react'
 import Link from 'next/link'
 
 import DarkModeToggle from '@components/dark-mode-toggle'
 
-const Navbar: FunctionComponent = () => {
+const Navbar = () => {
   return (
     <header className="flex justify-between items-center w-full max-w-3xl mx-auto px-4 md:px-10 py-6">
       <Link href="/">

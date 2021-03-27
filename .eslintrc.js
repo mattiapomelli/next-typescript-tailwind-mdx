@@ -25,6 +25,5 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
-    'react/prop-types': 'off', // We will use TypeScript's types for component props instead
   },
 }

@@ -1,8 +1,10 @@
-import { FunctionComponent } from 'react'
-
 import Navbar from '@components/navbar'
 
-const DefaultLayout: FunctionComponent = ({ children }) => {
+interface Props {
+  children: React.ReactNode
+}
+
+const DefaultLayout = ({ children }: Props) => {
   return (
     <>
       <Navbar />

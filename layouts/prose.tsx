@@ -1,14 +1,14 @@
-import { FunctionComponent } from 'react'
 import { NextSeo } from 'next-seo'
 
 interface LayoutProps {
+  children: React.ReactNode
   meta: {
     title: string
     description: string
   }
 }
 
-const ProseLayout: FunctionComponent<LayoutProps> = ({ children, meta }) => {
+const ProseLayout = ({ children, meta }: LayoutProps) => {
   const { title, description } = meta
 
   return (
